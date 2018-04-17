@@ -1,0 +1,20 @@
+:root {
+  --black: #111;
+}
+
+body {
+  background-color: var(--black);
+}
+
+/*app盒子*/
+#app {
+  /*app*/
+  display: flex;
+  justify-content: center;
+  transition: .3s;
+}
+
+.aa {
+  width: calc(2 * 100px);
+  z-index: 999;
+}
